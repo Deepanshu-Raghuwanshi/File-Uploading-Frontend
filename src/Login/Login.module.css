@@ -1,0 +1,13 @@
+.outer{
+       display: flex;
+  align-items: center; 
+  justify-content: center;
+  text-align:center;
+  }
+
+.inner{
+  border:2px solid black;
+      height:300px;
+  width:400px;   
+  padding:20px
+}

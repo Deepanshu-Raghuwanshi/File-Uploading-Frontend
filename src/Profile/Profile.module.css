@@ -1,0 +1,36 @@
+.imagecontainer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin: 4px 0;
+  width:1000px
+}
+.center{
+  display: flex;
+  justify-content:center;
+}
+
+
+.fileupload {
+  display: flex;
+  justify-content:center;
+  gap: 10px;
+  margin: 20px;
+}
+
+
+.fileuploadlabel {
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+}
+
+
+
+
+.fileuploadlabel:hover,
+.file-upload-input:focus + .file-upload-label {
+  text-decoration: underline;
+}
