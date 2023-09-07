@@ -27,7 +27,7 @@ const Login = () => {
     axios.post("https://file-uploading-dipanshuraghuwa.december-node-2022.repl.co/auth/login", { data: data }, { headers: { "Content-Type": "application/json", } })
       .then((data) => {
 
-        alert(data.data.message)
+        // alert(data.data.message)
 
       }).catch((err) => {
         alert('Invalid Username Password')
